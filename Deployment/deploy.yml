@@ -13,4 +13,4 @@
         name: docker
         state: started
     - name: Running container
-      shell: docker run -it -d --name Calculator nishu839/my_first_image
+      shell: docker run -it -d -p 9090:9090 --name Calculator nishu839/my_first_image
